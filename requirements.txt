@@ -1,8 +1,8 @@
-pinecone
+pinecone-client
 openai
 streamlit
 langchain
-translate
+streamlit-chat
+sentence_transformers
 langdetect
-streamlit_chat
-sentence_transformers 
+translate
