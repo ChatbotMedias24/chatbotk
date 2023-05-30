@@ -18,7 +18,7 @@ translator = Translator(to_lang="fr")
 # Créer une colonne pour l'image
 # Définir le style CSS pour déplacer l'image vers la gauche
 
-st.subheader("Chatbot - Édition marocaine rapport 2022")
+st.subheader("Chatbot - Le nouveau rapport sur le secteur de l'édition au Maroc en 2022 Réalisé par la Fondation  du Roi Abdul-Aziz Al Saoud")
 
 if 'responses' not in st.session_state:
     st.session_state['responses'] = ["Quelle information souhaitez-vous obtenir du rapport ?"]
@@ -53,7 +53,7 @@ with textcontainer:
 # Afficher l'image dans la barre latérale
     st.sidebar.image(logo_path, width=200) 
     st.sidebar.subheader("Suggestions:")
-    st.sidebar.markdown("##### choisir:")
+    st.sidebar.markdown("##### Choisir:")
     questions = [
     "L'idée générale du rapport ?", 
     "Quels sont les principaux chiffres et tendances de l'édition marocaine en 2022 ?",
