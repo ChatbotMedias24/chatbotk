@@ -5,3 +5,4 @@ langchain
 translate
 langdetect
 streamlit_chat
+sentence_transformers 
