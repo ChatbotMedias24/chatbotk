@@ -18,7 +18,7 @@ translator = Translator(to_lang="fr")
 # Créer une colonne pour l'image
 # Définir le style CSS pour déplacer l'image vers la gauche
 
-st.subheader("Le nouveau rapport sur le secteur de l'édition au Maroc en 2022 Réalisé par la Fondation  du Roi Abdul-Aziz Al Saoud")
+st.subheader("Rapport 2022 sur l'état de l'édition et du livre au Maroc, réalisé par la Fondation du roi abdul-Aziz Al Saoud")
 
 if 'responses' not in st.session_state:
     st.session_state['responses'] = ["Quelle information souhaitez-vous obtenir du rapport ?"]
