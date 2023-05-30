@@ -4,3 +4,4 @@ streamlit
 langchain
 translate
 langdetect
+streamlit_chat
