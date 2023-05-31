@@ -49,9 +49,14 @@ textcontainer = st.container()
 query = st.text_input("Posez votre question au chatbot :")
 with textcontainer:
     logo_path = "medias24.png"
+    logoo_path="image_edition.png"
+    
 
 # Afficher l'image dans la barre latérale
     st.sidebar.image(logo_path, width=200) 
+    left_co, cent_co,last_co = st.columns(3)
+    with cent_co:
+     st.sidebar.image(logoo_path,width=200)
     st.sidebar.subheader("Suggestions:")
     st.sidebar.markdown("##### Choisir:")
     questions = [
