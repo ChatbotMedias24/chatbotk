@@ -60,7 +60,7 @@ with textcontainer:
     st.sidebar.subheader("Suggestions:")
     st.sidebar.markdown("##### Choisir:")
     questions = [
-    "Résumé du rapport ",
+    "L'essentiel du rapport ",
     "Quels sont les principaux chiffres et tendances de l'édition marocaine en 2022 ?",
     "Comment se font la collecte et l'acquisition des publications marocaines ?",
     "Quelle est la répartition de la publication des livres selon les langues ?",
